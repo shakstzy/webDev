@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>sandwich boy</title>
+    <meta name="description" content="Shak STZY be ballin" />
+    <meta charset="utf-8" />
+    <meta name="robots" content="index,follow" />
+    <link rel="icon" href="/HTMLCSS/img/spotify_logo_icon_181626 (1).ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1>forms</h1>
+    <form autocomplete="off">
+      <label for="username">Username</label>
+      <input
+        maxlength="30"
+        minlength="6"
+        name="user"
+        type="text"
+        id="username"
+        placeholder="6 minimum characters"
+        required
+      />
+      <label for="email">Email</label>
+      <input required name="email" type="email" id="email" />
+      <select name="products" id="productdropdown">
+        <option value="Macbook">Macbook</option>
+        <option value="iPhone">iPhone</option>
+        <option selected value="iPad">iPad</option>
+      </select>
+      <textarea
+        required
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+      ></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
